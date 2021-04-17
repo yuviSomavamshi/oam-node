@@ -1,0 +1,38 @@
+{
+  "name": "oam-node",
+  "version": "1.0.0",
+  "description": "Operation and Maintainence Client Node module",
+  "main": "./srcs/oam.js",
+  "scripts": {
+    "test": "jest -i --colors --verbose --detectOpenHandles",
+    "test:watch": "jest -i --watchAll",
+    "coverage": "jest -i --coverage",
+    "coverage:coveralls": "jest -i --coverage --coverageReporters=text-lcov | coveralls",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "prettier": "prettier --check **/*.js",
+    "prettier:fix": "prettier --write **/*.js",
+    "prettify": "prettier --ignore-path \"./.prettierignore\" --write \"./**/*.{js,jsx,json}\""
+  },
+  "author": "Yuvaraj K <yuvarajsomavamshi@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "oam",
+    "oam_cli",
+    "oam_alerts"
+  ],
+  "devDependencies": {
+    "coveralls": "^3.1.0",
+    "eslint": "^7.24.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.3.5",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-security": "^1.4.0",
+    "husky": "^6.0.0",
+    "jest": "^26.6.3",
+    "lint-staged": "^10.5.4",
+    "prettier": "^2.2.1"
+  }
+}
