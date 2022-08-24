@@ -1,6 +1,6 @@
 <img src="oam.jpg">
 # node-oam-cli
-Nviera's Generic NPM Module.
+Generic NPM Module.
 This is a node module which generates the UDP packets for raising an Alarms.
 
 ## Table of Contents
@@ -96,4 +96,3 @@ OAM Alert : CLEARED : OK : Component1 is up and running
 - For any suggestions on improving documentation write to me at yuvarajsomavamshi@gmail.com
 - If you find any bug, raise an issue [here](http://172.19.10.136/mbs/MBS-Generics/issues) in gitlab.
 - If you want to be a contributor clone the project, create MRs with enhancements / features.
-
