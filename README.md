@@ -64,7 +64,7 @@ let configuration = {
   }
 };
 // Initialize the Module
-let oam = require("./srcs/oam");
+let oam = require("oam-node");
 oam.init(configuration);
 
 // Usage
@@ -75,7 +75,7 @@ oam.emit("unknownAlert", "component1");
 
 Sample Output
 -------------
-PS D:\WorkSpace\MBS-Generics\oam_cli> node .\test.js
+PS D:\WorkSpace\Generics\oam_cli> node .\test.js
 [1,"Component1 is up and running","Component1 is down"]
 ALERT:1.1.3.6.1.4.1.19338.116.1#0#Component1 is up and running#CLEARED#OK#CLIENTNAME
 [1,"Component1 is up and running","Component1 is down"]
@@ -94,5 +94,5 @@ OAM Alert : CLEARED : OK : Component1 is up and running
 
 ## Support & Help
 - For any suggestions on improving documentation write to me at yuvarajsomavamshi@gmail.com
-- If you find any bug, raise an issue [here](http://172.19.10.136/mbs/MBS-Generics/issues) in gitlab.
+- If you find any bug, raise an issue [here](https://github.com/yuviSomavamshi/oam-node/issues) in gitlab.
 - If you want to be a contributor clone the project, create MRs with enhancements / features.
